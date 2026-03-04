@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="CashVision simbolo">
+  <defs>
+    <linearGradient id="cvOuterMini" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1f5faf"/>
+      <stop offset="100%" stop-color="#2959a5"/>
+    </linearGradient>
+    <linearGradient id="cvBarsMini" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e79d0"/>
+      <stop offset="100%" stop-color="#254f90"/>
+    </linearGradient>
+  </defs>
+  <path d="M190 210 C 250 125, 390 125, 450 210 C 390 295, 250 295, 190 210 Z" fill="#000000"/>
+  <path d="M170 210 C 240 110, 400 110, 470 210 C 400 310, 240 310, 170 210 Z" fill="none" stroke="url(#cvOuterMini)" stroke-width="14"/>
+  <path d="M260 255 L260 180 C 275 198, 287 203, 300 202 L300 257 Z" fill="url(#cvBarsMini)"/>
+  <path d="M308 266 L308 168 C 324 172, 340 172, 356 168 L356 268 Z" fill="url(#cvBarsMini)"/>
+  <path d="M360 268 L360 168 C 378 168, 394 173, 410 184 L410 268 Z" fill="url(#cvBarsMini)"/>
+  <circle cx="288" cy="145" r="12" fill="#ffffff"/>
+  <path d="M266 236 C 320 234, 370 208, 411 155 L408 176 L438 155 L435 204 L420 189 C 381 239, 330 266, 262 271 Z" fill="#ffffff"/>
+</svg>

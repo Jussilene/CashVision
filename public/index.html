@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CashVision</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="login-view" class="login-wrap">
+      <div class="login-card">
+        <img src="/assets/logo-real.png" alt="CashVision" class="logo-login" onerror="this.onerror=null;this.src='/assets/cashvision-logo.svg';" />
+        <form id="login-form">
+          <label>Email</label>
+          <input type="email" name="email" value="admin@cashvision.local" required />
+          <label>Senha</label>
+          <input type="password" name="password" value="123456" required />
+          <button type="submit">Entrar</button>
+        </form>
+        <small>Usuário demo: admin@cashvision.local / 123456</small>
+      </div>
+    </div>
+
+    <div id="app-view" class="app hidden">
+      <aside class="sidebar">
+        <div class="brand">
+          <img src="/assets/logo-real.png" alt="CashVision" onerror="this.onerror=null;this.src='/assets/cashvision-logo.svg';" />
+        </div>
+        <nav id="menu">
+          <button data-route="overview" class="active">Visão Geral</button>
+          <button data-route="transactions">Lançamentos</button>
+          <button data-route="accounts">Contas</button>
+          <button data-route="categories">Categorias</button>
+          <button data-route="customers">Clientes</button>
+          <button data-route="invoices">Faturas</button>
+          <button data-route="imports">Importar do FluxoNF</button>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <h2 id="page-title">Visão Geral</h2>
+            <small id="user-meta"></small>
+          </div>
+          <div class="topbar-actions">
+            <select id="empresa-select"></select>
+            <button id="btn-logout">Sair</button>
+          </div>
+        </header>
+        <section id="view-container"></section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

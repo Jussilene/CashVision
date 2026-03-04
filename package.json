@@ -1,0 +1,19 @@
+{
+  "name": "cashvision",
+  "version": "1.0.0",
+  "description": "CashVision - fluxo de caixa, faturamento e importacao fiscal",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "check": "node --check src/server.js",
+    "reset-demo": "node scripts/reset-demo.js",
+    "qa:smoke": "node scripts/qa-smoke.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}

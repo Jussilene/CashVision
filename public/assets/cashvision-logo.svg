@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-label="CashVision logo">
+  <defs>
+    <linearGradient id="cvOuter" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1f5faf"/>
+      <stop offset="100%" stop-color="#2959a5"/>
+    </linearGradient>
+    <linearGradient id="cvBars" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e79d0"/>
+      <stop offset="100%" stop-color="#254f90"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M505 429 C 635 255, 901 255, 1031 429 C 901 603, 635 603, 505 429 Z" fill="#000000"/>
+  <path d="M468 429 C 620 219, 916 219, 1068 429 C 916 639, 620 639, 468 429 Z" fill="none" stroke="url(#cvOuter)" stroke-width="20"/>
+
+  <path d="M657 517 L657 388 C 684 427, 706 438, 734 437 L734 522 Z" fill="url(#cvBars)"/>
+  <path d="M747 538 L747 369 C 777 376, 807 376, 836 369 L836 540 Z" fill="url(#cvBars)"/>
+  <path d="M842 542 L842 369 C 876 369, 909 379, 938 397 L938 542 Z" fill="url(#cvBars)"/>
+
+  <circle cx="708" cy="332" r="22" fill="#ffffff"/>
+  <path d="M671 487 C 763 483, 852 438, 926 349 L921 387 L972 350 L968 433 L944 407 C 873 496, 780 545, 663 552 Z" fill="#ffffff"/>
+
+  <text x="768" y="735" text-anchor="middle" font-size="120" font-family="Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="8" fill="#ffffff">CASHVISION</text>
+</svg>
